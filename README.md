@@ -8,7 +8,7 @@ s.t. fi(x) <= 0, i=1,...,m
      Ax=b
 ```
 
-To download the codes, please contact me via email: cockepno29@gmail.com.
+To download the codes, please contact me via email: tlandinh93@gmail.com.
 
 # References
 For more details, please refer to:
