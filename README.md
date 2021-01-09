@@ -2,9 +2,11 @@
 
 COP is a Python package for solving the convex optimization problem in the form:
 
-** inf f0(x)**
-** s.t. fi(x) <= 0, i=1,...,m**
-**       Ax=b**
+```
+inf f0(x)
+s.t. fi(x) <= 0, i=1,...,m
+     Ax=b
+```
 
 To download the codes, please contact me via email: cockepno29@gmail.com.
 
