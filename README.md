@@ -1,6 +1,6 @@
 # COP
 
-COP is a Python package for solving the convex optimization problem in the form:
+COP is a Python package for solving the convex optimization problem (COP) in the form:
 
 ```
 inf f0(x)
