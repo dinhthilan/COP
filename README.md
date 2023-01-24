@@ -8,8 +8,6 @@ s.t. fi(x) <= 0, i=1,...,m
      Ax=b
 ```
 
-To download the codes, please contact me via email: tlandinh93@gmail.com.
-
 # References
 For more details, please refer to:
 T.L. Dinh, N.H.A. Mai. [Comparing different subgradient methods  for solving convex optimization problems with functional constraints](https://arxiv.org/abs/2101.01045), 2021. Submitted.
