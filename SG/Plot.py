@@ -6,6 +6,7 @@ Created on Tue Dec 22 21:48:06 2020
 """
 import matplotlib.pyplot as plt
 
+__all__ = ['plot']
 def plot(list_iter,Obj,Labels,check = 'feas'):
     
     fig,ax=plt.subplots()

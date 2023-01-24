@@ -10,7 +10,7 @@ import Rand_Prob as rp
 import numpy as np
 import Plot 
 import sys
-sys.path.append('./')
+import SetPythonPath
 from DSG.schemes.DSG import utils as utils_DSG
 from MultiDSG import utils as utils_MDSG
 import PDS.utils as utils_PDS

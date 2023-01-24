@@ -6,10 +6,7 @@ Created on Sat Dec 26 15:08:59 2020
 """
 import numpy as np
 import Rand_Prob as rp
-
-import sys
-sys.path.append('./')
-
+import SetPythonPath
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
 import MultiDSG.utils as MultiDSG

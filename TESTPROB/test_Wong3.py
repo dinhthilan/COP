@@ -10,8 +10,8 @@ import Wong3 as w3
 
 import numpy as np
 import Plot 
-import sys
-sys.path.append('./')
+import SetPythonPath
+
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
 import MultiDSG.utils as MultiDSG

@@ -6,6 +6,8 @@ Created on Sat Dec 19 18:12:00 2020
 """
 import numpy as np
 
+__all__ = ['eval_f0','eval_funcx1','eval_funczero','eval_max','eval_funcx2','eval_funcx3','eval_sum','eval_f_ineq']
+
 def eval_f0(variant):
     subgrad = np.sign(variant)
     val =  np.linalg.norm(variant,ord = 1)   

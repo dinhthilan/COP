@@ -9,6 +9,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 import time
+__all__ = ['normsq', 'plot', 'abs_func','abs_h_eq','max_func','max_cons','update','run']
 
 
 def normsq(vec):
