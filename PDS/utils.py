@@ -5,8 +5,6 @@ Created on Sat Dec 19 18:07:59 2020
 @author: Thi Lan Dinh
 """
 import numpy as np
-import random
-import matplotlib.pyplot as plt
 import math
 import time
 

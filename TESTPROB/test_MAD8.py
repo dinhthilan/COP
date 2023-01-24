@@ -8,7 +8,7 @@ import MAD8 as mad8
 import numpy as np
 import Plot 
 import sys
-sys.path.append('C:/Users/Lan-ACSYON/Desktop/COPFC')
+sys.path.append('./')
 
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG

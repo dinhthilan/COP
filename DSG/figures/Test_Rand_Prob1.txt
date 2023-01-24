@@ -1,0 +1,93 @@
+runfile('C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB/test_Rand_Prob1.py', wdir='C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB')
+Reloaded modules: Rand_Prob, PDS.utils, DSG.utils, MDSG.utils, SM.utils, Plot
+DSG: version 1.0
+Number of variables: n = 10 
+Iter = 1,  Val = 0.4477,  Infeas = 1.7683
+Iter = 2,  Val = 0.0397,  Infeas = 2.1731
+Iter = 4,  Val = -0.0507,  Infeas = 1.7213
+Iter = 8,  Val = -0.1603,  Infeas = 1.0661
+Iter = 16,  Val = -0.4335,  Infeas = 0.5177
+Iter = 32,  Val = -0.6922,  Infeas = 0.3867
+Iter = 64,  Val = -0.8338,  Infeas = 0.3381
+Iter = 128,  Val = -0.9093,  Infeas = 0.3107
+Iter = 256,  Val = -0.9528,  Infeas = 0.2942
+Iter = 512,  Val = -0.9781,  Infeas = 0.2838
+Iter = 1024,  Val = -0.9494,  Infeas = 0.2535
+Iter = 2048,  Val = -0.8241,  Infeas = 0.1752
+Iter = 4096,  Val = -0.7611,  Infeas = 0.1347
+Iter = 8192,  Val = -0.6984,  Infeas = 0.0967
+Iter = 16384,  Val = -0.6500,  Infeas = 0.0681
+Iter = 32768,  Val = -0.6170,  Infeas = 0.0490
+Iter = 65536,  Val = -0.5927,  Infeas = 0.0350
+Iter = 99999,  Val = -0.5814,  Infeas = 0.0284
+Total time: 46.0591 
+MDSG: version 1.0
+Number of variables: n = 10 
+Number of enequality constrains: m = 1
+Number of equality constrains: l = 2
+Iter = 1,  Val = 0.4477,  Infeas = 3.1686
+Iter = 2,  Val = 0.0704,  Infeas = 1.8039
+Iter = 4,  Val = 0.0155,  Infeas = 0.4351
+Iter = 8,  Val = -0.0537,  Infeas = 0.2495
+Iter = 16,  Val = -0.4241,  Infeas = 0.5049
+Iter = 32,  Val = -0.6258,  Infeas = 0.3174
+Iter = 64,  Val = -0.6976,  Infeas = 0.2230
+Iter = 128,  Val = -0.6355,  Infeas = 0.0329
+Iter = 256,  Val = -0.6130,  Infeas = 0.0866
+Iter = 512,  Val = -0.5885,  Infeas = 0.0427
+Iter = 1024,  Val = -0.5727,  Infeas = 0.0420
+Iter = 2048,  Val = -0.5615,  Infeas = 0.0323
+Iter = 4096,  Val = -0.5533,  Infeas = 0.0318
+Iter = 8192,  Val = -0.5474,  Infeas = 0.0112
+Iter = 16384,  Val = -0.5430,  Infeas = 0.0090
+Iter = 32768,  Val = -0.5397,  Infeas = 0.0068
+Iter = 65536,  Val = -0.5375,  Infeas = 0.0037
+Iter = 99999,  Val = -0.5365,  Infeas = 0.0056
+Total time: 45.3863 
+
+runfile('C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB/test_Rand_Prob1.py', wdir='C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB')
+Reloaded modules: Rand_Prob, Plot, DSG.utils, MDSG.utils, PDS.utils
+DSG: version 1.0
+Number of variables: n = 10 
+Iter = 1,  Val = 0.8524,  Infeas = 3.0439
+Iter = 2,  Val = 0.2314,  Infeas = 3.0257
+Iter = 4,  Val = -0.1921,  Infeas = 2.3887
+Iter = 8,  Val = -0.6606,  Infeas = 1.3496
+Iter = 16,  Val = -0.9192,  Infeas = 0.7769
+Iter = 32,  Val = -0.9399,  Infeas = 0.5521
+Iter = 64,  Val = -0.9463,  Infeas = 0.4284
+Iter = 128,  Val = -0.9928,  Infeas = 0.2982
+Iter = 256,  Val = -0.9880,  Infeas = 0.3600
+Iter = 512,  Val = -1.0020,  Infeas = 0.3365
+Iter = 1024,  Val = -1.0012,  Infeas = 0.3278
+Iter = 2048,  Val = -0.9952,  Infeas = 0.3112
+Iter = 4096,  Val = -0.9818,  Infeas = 0.3034
+Iter = 8192,  Val = -0.9670,  Infeas = 0.2971
+Iter = 16384,  Val = -0.9520,  Infeas = 0.2901
+Iter = 32768,  Val = -0.9363,  Infeas = 0.2964
+Iter = 65536,  Val = -0.9214,  Infeas = 0.2870
+Iter = 99999,  Val = -0.9131,  Infeas = 0.2972
+Total time: 42.8145 
+MDSG: version 1.0
+Number of variables: n = 10 
+Number of enequality constrains: m = 1
+Number of equality constrains: l = 2
+Iter = 1,  Val = 0.8524,  Infeas = 3.2245
+Iter = 2,  Val = 0.2649,  Infeas = 2.3303
+Iter = 4,  Val = -0.1624,  Infeas = 1.4655
+Iter = 8,  Val = -0.6882,  Infeas = 0.7896
+Iter = 16,  Val = -0.8018,  Infeas = 0.4453
+Iter = 32,  Val = -0.9883,  Infeas = 0.2789
+Iter = 64,  Val = -0.9765,  Infeas = 0.1861
+Iter = 128,  Val = -0.9710,  Infeas = 0.1422
+Iter = 256,  Val = -0.9692,  Infeas = 0.0950
+Iter = 512,  Val = -0.9648,  Infeas = 0.0538
+Iter = 1024,  Val = -0.9605,  Infeas = 0.0377
+Iter = 2048,  Val = -0.9563,  Infeas = 0.0218
+Iter = 4096,  Val = -0.9532,  Infeas = 0.0176
+Iter = 8192,  Val = -0.9511,  Infeas = 0.0124
+Iter = 16384,  Val = -0.9496,  Infeas = 0.0055
+Iter = 32768,  Val = -0.9491,  Infeas = 0.0082
+Iter = 65536,  Val = -0.9494,  Infeas = 0.0029
+Iter = 99999,  Val = -0.9495,  Infeas = 0.0037
+Total time: 43.8191 

@@ -1,0 +1,77 @@
+
+runfile('C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB/test_Wong2.py', wdir='C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/TESTPROB')
+val_exact =  24.306209
+DSG: version 1.0
+Number of variables: n = 10 
+Iter = 1,  Val = 753.0000,  Infeas = 12.0000
+Iter = 2,  Val = 684.6971,  Infeas = 11.7975
+Iter = 4,  Val = 647.5856,  Infeas = 11.6502
+Iter = 8,  Val = 597.9233,  Infeas = 11.4256
+Iter = 16,  Val = 530.4083,  Infeas = 11.0507
+Iter = 32,  Val = 444.3333,  Infeas = 10.2845
+Iter = 64,  Val = 334.2983,  Infeas = 8.6621
+Iter = 128,  Val = 209.8726,  Infeas = 5.7012
+Iter = 256,  Val = 96.8464,  Infeas = 0.6856
+Iter = 512,  Val = 35.2707,  Infeas = 3.8855
+Iter = 1024,  Val = 26.1599,  Infeas = 2.8557
+Iter = 2048,  Val = 22.4006,  Infeas = 2.3246
+Iter = 4096,  Val = 21.0605,  Infeas = 1.9271
+Iter = 8192,  Val = 20.8082,  Infeas = 1.5673
+Iter = 16384,  Val = 21.0572,  Infeas = 1.2452
+Iter = 32768,  Val = 21.5159,  Infeas = 0.9667
+Iter = 65536,  Val = 22.0393,  Infeas = 0.7342
+Iter = 99999,  Val = 22.3522,  Infeas = 0.6159
+Total time: 125.6668 
+Val_star =  22.352178874649187
+Gap = 7.7215%
+--------------------
+MDSG: version 1.0
+Number of variables: n = 10 
+Number of enequality constrains: m = 3
+Number of equality constrains: l = 0
+Iter = 1,  Val = 753.0000,  Infeas = 0.0000
+Iter = 2,  Val = 684.3900,  Infeas = 0.0000
+Iter = 4,  Val = 647.1234,  Infeas = 0.0000
+Iter = 8,  Val = 597.2288,  Infeas = 0.0000
+Iter = 16,  Val = 529.3610,  Infeas = 0.0000
+Iter = 32,  Val = 444.2861,  Infeas = 0.0000
+Iter = 64,  Val = 338.8107,  Infeas = 0.0000
+Iter = 128,  Val = 217.7634,  Infeas = 0.0000
+Iter = 256,  Val = 92.5038,  Infeas = 1.7414
+Iter = 512,  Val = 42.9869,  Infeas = 1.2418
+Iter = 1024,  Val = 30.6179,  Infeas = 0.9601
+Iter = 2048,  Val = 26.2178,  Infeas = 0.6927
+Iter = 4096,  Val = 24.5514,  Infeas = 0.5035
+Iter = 8192,  Val = 23.9530,  Infeas = 0.3620
+Iter = 16384,  Val = 23.8007,  Infeas = 0.2530
+Iter = 32768,  Val = 23.8286,  Infeas = 0.1853
+Iter = 65536,  Val = 23.9102,  Infeas = 0.1246
+Iter = 99999,  Val = 23.9641,  Infeas = 0.1017
+Total time: 138.4128 
+Val_star =  23.964105663269038
+Gap = 1.3519%
+--------------------
+SM: version 1.0
+Number of variables: n = 10 
+Number of enequality constrains: m = 3
+Iter = 1,  Val = 753.0000,  Feas_ineq = 0.0000
+Iter = 2,  Val = 752.9900,  Feas_ineq = 0.0000
+Iter = 4,  Val = 752.9700,  Feas_ineq = 0.0000
+Iter = 8,  Val = 752.9300,  Feas_ineq = 0.0000
+Iter = 16,  Val = 752.8500,  Feas_ineq = 0.0000
+Iter = 32,  Val = 752.6900,  Feas_ineq = 0.0000
+Iter = 64,  Val = 752.3700,  Feas_ineq = 0.0000
+Iter = 128,  Val = 751.7300,  Feas_ineq = 0.0000
+Iter = 256,  Val = 750.4500,  Feas_ineq = 0.0000
+Iter = 512,  Val = 747.8900,  Feas_ineq = 0.0000
+Iter = 1024,  Val = 742.7700,  Feas_ineq = 0.0000
+Iter = 2048,  Val = 732.5301,  Feas_ineq = 0.0000
+Iter = 4096,  Val = 712.0501,  Feas_ineq = 0.0000
+Iter = 8192,  Val = 671.0903,  Feas_ineq = 0.0000
+Iter = 16384,  Val = 589.1706,  Feas_ineq = 0.0000
+Iter = 32768,  Val = 425.3315,  Feas_ineq = 0.0000
+Iter = 65536,  Val = 173.7612,  Feas_ineq = 0.0000
+Iter = 99999,  Val = 46.3174,  Feas_ineq = 0.0001
+Total time: 233.9516 
+Val_star =  46.31736401533364
+Gap = 46.5181%

@@ -5,7 +5,6 @@ Created on Sat Dec 26 18:46:47 2020
 @author: Thi Lan Dinh
 """
 import numpy as np
-import Rand_Prob as rp
 import Plot 
 import sys
 sys.path.append('./')
@@ -14,7 +13,6 @@ import SG.utils as SG
 import SingleDSG.utils as SingleDSG
 import MultiDSG.utils as MultiDSG
 import PDS.utils as PDS
-import math
 
 
 n_bar = 5

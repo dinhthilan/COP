@@ -11,8 +11,7 @@ import Wong3 as w3
 import numpy as np
 import Plot 
 import sys
-sys.path.append('/home/hoanganh/Desktop/math-topics/COPFC/codes/COPFC')
-
+sys.path.append('./')
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
 import MultiDSG.utils as MultiDSG

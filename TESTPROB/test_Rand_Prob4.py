@@ -11,10 +11,9 @@ import Rand_Prob as rp
 import numpy as np
 import Plot 
 import sys
-sys.path.append('C:/Users/Lan-ACSYON/Desktop/math-topic/DSG/schemes/')
-
-import DSG.utils as utils_DSG
-import MDSG.utils as utils_MDSG
+sys.path.append('./')
+from DSG.schemes.DSG import utils as utils_DSG
+from MultiDSG import utils as utils_MDSG
 import PDS.utils as utils_PDS
 import math
 

@@ -11,13 +11,12 @@ import Wong2 as w2
 import numpy as np
 import Plot 
 import sys
-sys.path.append('/home/hoanganh/Desktop/math-topics/COPFC/codes/COPFC')
+sys.path.append('./')
 
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
 import MultiDSG.utils as MultiDSG
 import PDS.utils as PDS
-import math
 
 
 import Plot 
