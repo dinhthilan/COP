@@ -5,7 +5,7 @@ Created on Wed Dec 23 17:45:45 2020
 @author: Thi Lan Dinh
 """
 
-
+import SetPythonPath
 import Rand_Prob as rp
 
 import numpy as np
