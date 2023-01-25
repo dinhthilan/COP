@@ -9,7 +9,8 @@ import Rand_Prob as rp
 
 import numpy as np
 import Plot 
-import SetPythonPath
+import sys
+sys.path.append('/home/hoanganh/Desktop/math-topics/COPFC/codes/COPFC')
 
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG

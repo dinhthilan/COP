@@ -19,7 +19,7 @@ import PDS.utils as PDS
 import math
 
 
-n = 1000
+n = 10
 l = math.ceil(n/7)
 m = 2*n+1
 A = rp.rand_mat(l,n)

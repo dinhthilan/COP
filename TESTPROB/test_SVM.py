@@ -15,7 +15,7 @@ import MultiDSG.utils as MultiDSG
 import PDS.utils as PDS
 
 
-n_bar = 5
+n_bar = 2
 N1 = 100*n_bar
 N2 = N1
 N = N1 + N2

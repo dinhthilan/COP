@@ -15,7 +15,7 @@ s.t. fi(x) <= 0, i=1,...,m
 Activate your python enviroment
 
 ```
-conda activate python3.6
+conda activate python3.9
 ```
 Install the dependencies: 
 ```
@@ -31,7 +31,20 @@ Then type
 python experiment_file_name
 
 # for example:
-python test_LAD.py 
+# In order to get the Figure 1, type:
+python test_Rand_Prob1.py
+
+# In oder to get the Figure 4, type:
+python test_Rand_Prob2.py
+
+
+# In order to get the Figure 10, type: 
+python test_LAD.py
+
+# In oder to get the Figure 13, type:
+python test_SVM.py
+
+# ...
 ```
 
 # References
