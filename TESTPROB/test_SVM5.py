@@ -7,7 +7,7 @@ Created on Sat Dec 26 18:46:47 2020
 import numpy as np
 import Plot 
 import sys
-sys.path.append('./')
+import SetPythonPath
 
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
@@ -15,7 +15,7 @@ import MultiDSG.utils as MultiDSG
 import PDS.utils as PDS
 
 
-n_bar = 2
+n_bar = 5
 N1 = 100*n_bar
 N2 = N1
 N = N1 + N2

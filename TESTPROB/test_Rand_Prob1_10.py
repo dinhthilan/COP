@@ -9,8 +9,7 @@ import Rand_Prob as rp
 
 import numpy as np
 import Plot 
-import sys
-sys.path.append('/home/hoanganh/Desktop/math-topics/COPFC/codes/COPFC')
+import SetPythonPath
 
 import SG.utils as SG
 import SingleDSG.utils as SingleDSG
@@ -20,7 +19,7 @@ import math
 
 
 
-n = 1000
+n = 10
 l = math.ceil(n/7)
 #l=0
 m = 1

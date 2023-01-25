@@ -28,23 +28,26 @@ cd COP/TESTPROB/
 ```
 Then type
 ```
-python experiment_file_name
 
-# for example:
-# In order to get the Figure 1, type:
-python test_Rand_Prob1.py
+python test_Rand_Prob1_10.py     # Case 1: Table 4: Id 1 and Figure 1
+python test_Rand_Prob1_100.py    # Case 1: Table 4: Id 2 and Figure 2 
+python test_Rand_Prob1_1000.py   # Case 1: Table 4: Id 3 and Figure 3 
+python test_Rand_Prob2_10.py        # Case 2: Table 4: Id 4 and Figure 4
+python test_Rand_Prob2_100.py        # Case 2: Table 4: Id 5 and Figure 5
+python test_Rand_Prob2_1000.py        # Case 2: Table 4: Id 6 and Figure 6 
 
-# In oder to get the Figure 4, type:
-python test_Rand_Prob2.py
+python test_MAD8.py	          # Table 5, 6: Id 7 and Figure 7 
+python test_Wong2.py             # Table 5, 6: Id 8 and Figure 8 
+python test_Wong3.py             # Table 5, 6: Id 9 and Figure 9 
 
+python test_LAD10.py        	  # Table 7, 8: Id 10 and Figure 10
+python test_LAD100.py       # Table 7, 8: Id 11 and Figure 11
+python test_LAD1000.py      # Table 7, 8: Id 12 and Figure 12
 
-# In order to get the Figure 10, type: 
-python test_LAD.py
+python test_SVM2.py	     # Table 9, 10: Id 13 and Figure 13
+python test_SVM3.py	     # Table 9, 10: Id 14 and Figure 14
+python test_SVM5.py	     # Table 9, 10: Id 15 and Figure 15
 
-# In oder to get the Figure 13, type:
-python test_SVM.py
-
-# ...
 ```
 
 # References

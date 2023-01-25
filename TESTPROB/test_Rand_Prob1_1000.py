@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec 23 17:45:45 2020
+Created on Wed Dec 23 16:00:33 2020
 
 @author: Thi Lan Dinh
 """
-
 
 import Rand_Prob as rp
 
@@ -19,21 +18,23 @@ import PDS.utils as PDS
 import math
 
 
-n = 10
+
+n = 1000
 l = math.ceil(n/7)
-m = 2*n+1
+#l=0
+m = 1
+
 A = rp.rand_mat(l,n)
 c = rp.rand_mat(n,1).reshape(n,)
 x0 = np.random.rand(n,1)
 x_bar = rp.rand_mat(n,1)
-x_bar[0] = 0
-x_bar[1] = 1
+x_bar = x_bar/np.linalg.norm(x_bar,1)
 #x_bar*=np.random.rand(1)[0]
 b = np.matmul(A,x_bar)
 
 lambd = np.zeros([m,1])
 v = np.random.rand(l,1)
-numiter= int(1e+5)
+numiter= int(1e+6)
 delta=0.99
 eps=1e-3
 
@@ -43,18 +44,15 @@ print('delta=',delta)
 print('eps=',eps)
 ######################
 
-
-
 def obj(x):
     return rp.linear_obj(c,x,n)
-def cons(x):
-    return rp.cons2(n,x)
+
 def obj_new(x):
     val,grad=rp.linear_obj(c,x,n)
     return val,grad.reshape(n,)
 
 def cons_new(x):
-    vec_val,mat_grad=rp.cons2(n,x)
+    vec_val,mat_grad=rp.cons1(x)
     return vec_val,mat_grad.reshape(n,m)
 
 def h_eq(x): 
@@ -66,7 +64,7 @@ def h_eq(x):
 #############################################
 
 
-_,_,_,_,FEAS1,VAL1 = SG.run(m,x0.reshape(n,),obj_new,cons_new,h_eq,eps=eps,
+_,_,_,_,FEAS1,VAL1= SG.run(m,x0.reshape(n,),obj_new,cons_new,h_eq,eps=eps,
                  numiter=numiter,Print=True,history=True)
 
 #########################################
@@ -119,7 +117,7 @@ x0=x0.reshape(n,1)
 
 s=1
 print('s = ',s)
-_,_,_,_,FEAS4,VAL4 = PDS.run(A,b,x0,v,lambd,m,obj,cons,
+_,_,_,_,FEAS4,VAL4 = PDS.run(A,b,x0,v,lambd,m,obj,rp.cons1,
                  Print=True,history=True,delta=delta,rho=1/s,s =s,numiter=numiter,
                  eps=eps)
 
@@ -127,7 +125,7 @@ _,_,_,_,FEAS4,VAL4 = PDS.run(A,b,x0,v,lambd,m,obj,cons,
 ####################################
 s=1.5
 print('s = ',s)
-_,_,_,_,FEAS5,VAL5 = PDS.run(A,b,x0,v,lambd,m,obj,cons,
+_,_,_,_,FEAS5,VAL5 = PDS.run(A,b,x0,v,lambd,m,obj,rp.cons1,
                  Print=True,history=True,delta=delta,rho=1/s,s =s,numiter=numiter,
                  eps=eps)
 
@@ -135,12 +133,26 @@ _,_,_,_,FEAS5,VAL5 = PDS.run(A,b,x0,v,lambd,m,obj,cons,
 ####################################
 s=2
 print('s = ',s)
-_,_,_,_,FEAS6,VAL6 = PDS.run(A,b,x0,v,lambd,m,obj,cons,
+_,_,_,_,FEAS6,VAL6 = PDS.run(A,b,x0,v,lambd,m,obj,rp.cons1,
                  Print=True,history=True,delta=delta,rho=1/s,s =s,numiter=numiter,
                  eps=eps)
+
 
 
 ####################################
 
 Plot.plot(range(1,len(FEAS1)+1),[FEAS1,FEAS2,FEAS3,FEAS4,FEAS5,FEAS6],Labels=['SG','SingleDSG','MultiDSG','PDS with s=1','PDS with s=1.5','PDS with s=2'],check='feas')
-Plot.plot(range(1,len(FEAS1)+1),[VAL1,VAL2,VAL3,VAL4,VAL5,VAL6],Labels=['SG','SingleDSG','MultiDSG','PDS with s=1','PDS with s=1.5','PDS with s=2'],check='Val',loc='lower left')
+Plot.plot(range(1,len(FEAS1)+1),[VAL1,VAL2,VAL3,VAL4,VAL5,VAL6],Labels=['SG','SingleDSG','MultiDSG','PDS with s=1','PDS with s=1.5','PDS with s=2'],check='Val',loc='lower right')
+
+
+
+
+
+
+
+
+
+
+
+
+
