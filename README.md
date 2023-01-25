@@ -9,21 +9,29 @@ s.t. fi(x) <= 0, i=1,...,m
 ```
 # Getting started
 
-1. Clone this repository: https://github.com/dinhthilan/COP.git
-2. Install the dependencies: pip install requirements.txt
-3. Now, to run an experiment, open a command line. Assuming COP is in your current folder,
-```
-cd COP/TESTPROB/
+1. Clone this repository: git clone https://github.com/dinhthilan/COP.git 
+2. Now, open a command line. Assuming COP is in your current folder,
 
-```
 Activate your python enviroment
 
 ```
 conda activate python3.6
 ```
+Install the dependencies: 
+```
+pip install requirements.txt
+```
+3. To run an experiment, 
+```
+cd COP/TESTPROB/
+
+```
 Then type
 ```
 python experiment_file_name
+
+# for example:
+python test_LAD.py 
 ```
 
 # References
